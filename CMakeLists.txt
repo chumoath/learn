@@ -7,3 +7,4 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g -O0 -rdynamic -Wl,-rpath=.")
 project(app)
 
 add_subdirectory(backtrace)
+add_subdirectory(timer)
